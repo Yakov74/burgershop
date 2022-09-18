@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Burger Shop</title>
+</head>
+<body>
+    <h2 class="bur">Burger Shop TakeAway</h2>
+    <div class="container">
+        <div class="articles">
+            <div>
+                <img src="https://www.nicepng.com/png/detail/26-269352_png-library-download-burger-png-images-all-image.png" >
+                <div class="prod">
+                    <h3 class="burg" id="sort1">Cheeseburger</h3>
+                    <h4 id="price1">19.90 shkl</h4>
+                </div>
+                <div class="inputs">
+                    <input type="number" id="quantity1" name="quantity1" min="1" max="20" value="1">
+                    <div>
+                        <button class="addTo" onclick="add(1)">Add</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="https://www.clonelab.at/wp-content/uploads/16-768x768.jpg" >
+                <div class="prod">
+                    <h3 class="burg" id="sort2">Double Cheeseburger</h3>
+                    <h4 id="price2">23.90 shkl</h4>
+                </div>
+                <div class="inputs">
+                    <input type="number" id="quantity2" name="quantity2" min="1" max="20" value="1">
+                    <div>
+                        <button class="addTo" onclick="add(2)">Add</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="https://media.informabtl.com/wp-content/uploads/2015/10/Mac.png" >
+                <div class="prod">
+                    <h3 class="burg" id="sort3">Triple Cheeseburger</h3>
+                    <h4 id="price3">27.90 shkl</h4>
+                </div>
+                <div class="inputs">
+                    <input type="number" id="quantity3" name="quantity3" min="1" max="20" value="1">
+                    <div>
+                        <button class="addTo" onclick="add(3)">Add</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="https://img.freepik.com/premium-photo/fried-shrimp-burger-with-vegetables-isolated_524291-2279.jpg?w=1380" >
+                <div class="prod">
+                    <h3 class="burg" id="sort4">Chicken Burger</h3>
+                    <h4 id="price4">19.90 shkl</h4>
+                </div>
+                <div class="inputs">
+                    <input type="number" id="quantity4" name="quantity4" min="1" max="20" value="1">
+                    <div>
+                        <button class="addTo" onclick="add(4)">Add</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart">
+            <h3 class="burg1">My order</h3>
+            <ul id="items">
+            </ul>
+            <h3 id="total" style="text-align:right;">Total: 0 shkl</h3>
+        </div>
+    </div>
+    
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
